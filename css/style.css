@@ -1,2 +1,150 @@
 /* font-family: 'Dosis', sans-serif;
 font-family: 'Roboto', sans-serif; */
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 100%;
+    overflow-x: hidden;
+    color: black;
+    font-weight: 400;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 150%;
+   
+}
+.primary-btn{
+    padding: 20px 40px;
+    background: linear-gradient(45deg,#FA994C,#FE492E);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: 400;
+    display: inline-block;
+    box-shadow: 0 0 8px #FE492E;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+    line-height: 150%;
+    text-transform: capitalize;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
+    line-height: 150%;
+    text-transform: capitalize;
+}
+section{
+    padding: 50px 0px;
+}
+/*---------------order-top start-------------*/
+#order-top{
+    display: flex;
+    align-items: center;
+}
+#order-top .order-top-left h1{
+    color: #575757;
+}
+#order-top .order-top-left{
+    width: 40%;
+    padding: 0 5%;
+}
+#order-top .order-top-left h1 span{
+    color: #FB8A47;
+}
+#order-top .order-top-left p{
+    font-size: 20px;
+    color: #969696;
+    margin-bottom: 50px;
+}
+#order-top .order-top-right{
+    width: 40%;
+    padding: 0 5%;
+}
+#order-top .order-top-right img{
+    width: 100%;
+}
+/*---------------order-top End-------------*/
+/*---------------about-me start-------------*/
+#about-me{
+    display: flex;
+    align-items: center;
+    background-image: url(/images/inner-image/top-2-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#about-me .about-me-left{
+    width: 40%;
+    padding-left: 10%;
+}
+#about-me .about-me-left img{
+    width: 60%;
+}
+#about-me .about-me-right{
+    width: 40%;
+    padding-right: 10%;
+}
+#about-me .about-me-right h2{
+    color: #707070;
+}
+#about-me .about-me-right p{
+    font-size: 18px;
+    line-height: 170%;
+    color: #18191F;
+    margin-bottom: 40px;
+}
+/*---------------about-me End-------------*/
+/*---------------my-recipies start-------------*/
+
+#my-recipies .section-title{
+    text-align: center;
+
+}
+#my-recipies .section-title h2{
+    color: #707070;
+}
+#my-recipies .section-title p{
+    font-size: 17px;
+    line-height: 150%;
+    margin-bottom: 40px;
+    color: #18191F;
+}
+#my-recipies .my-recipies-inner{
+    display: flex;
+    margin: 0 5%;
+}
+#my-recipies .my-recipies-inner .recipie-1{
+    width: 33.333%;
+    margin: 0 2%;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 15px grey;
+    padding: 20px;
+}
+#my-recipies .my-recipies-inner .recipie-1 img{
+    width: 100%;
+    border-radius: 20px;
+}
+#my-recipies .my-recipies-inner .recipie-1 h4{
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #18191F;
+}
+#my-recipies .my-recipies-inner .recipie-1 p{
+    font-size: 17px;
+    line-height: 175%;
+    font-weight: 500;
+    color: #18191F;
+}
