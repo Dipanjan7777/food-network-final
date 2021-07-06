@@ -14,8 +14,7 @@ p{
     font-size: 16px;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
-    line-height: 150%;
-   
+    line-height: 150%; 
 }
 .primary-btn{
     padding: 20px 40px;
@@ -48,17 +47,19 @@ h2{
 section{
     padding: 50px 0px;
 }
-/*---------------order-top start-------------*/
+/*---------------order-top-------------*/
 #order-top{
     display: flex;
     align-items: center;
+    background: white;
 }
 #order-top .order-top-left h1{
     color: #575757;
 }
 #order-top .order-top-left{
     width: 40%;
-    padding: 0 5%;
+    margin: 0 5%;
+    padding: 0 25px;
 }
 #order-top .order-top-left h1 span{
     color: #FB8A47;
@@ -75,12 +76,11 @@ section{
 #order-top .order-top-right img{
     width: 100%;
 }
-/*---------------order-top End-------------*/
-/*---------------about-me start-------------*/
+/*---------------about-me-------------*/
 #about-me{
     display: flex;
     align-items: center;
-    background-image: url(/images/inner-image/top-2-bg.png);
+    background-image: url(../images/inner-image/top-2-bg.png);
     background-position: right;
     background-repeat: no-repeat;
 }
@@ -103,13 +103,14 @@ section{
     line-height: 170%;
     color: #18191F;
     margin-bottom: 40px;
+    letter-spacing: 0.25px;
 }
-/*---------------about-me End-------------*/
-/*---------------my-recipes start-------------*/
-
+/*---------------my-recipes-------------*/
+#my-recipes{
+    background: white;
+}
 #my-recipes .section-title{
     text-align: center;
-
 }
 #my-recipes .section-title h2{
     color: #707070;
@@ -119,6 +120,7 @@ section{
     line-height: 150%;
     margin-bottom: 40px;
     color: #18191F;
+    letter-spacing: 0.25px;
 }
 #my-recipes .my-recipes-inner{
     display: flex;
@@ -134,7 +136,7 @@ section{
 }
 #my-recipes .my-recipes-inner .recipe-1 img{
     width: 100%;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 #my-recipes .my-recipes-inner .recipe-1 h4{
     font-size: 26px;
@@ -147,12 +149,13 @@ section{
     line-height: 175%;
     font-weight: 500;
     color: #18191F;
+    letter-spacing: 0.25px;
 }
-/*---------------my-recipes End-------------*/
-/*---------------free-recipes start-------------*/
+/*---------------free-recipes-------------*/
 #free-recipes{
     display: flex;
     align-items: center;
+    background: white;
 }
 #free-recipes .free-recipes-left{
     width: 50%;
@@ -187,7 +190,7 @@ section{
     font-size: 18px;
     opacity: 1;
 }
-#free-recipes .free-recipes-right button{
+#free-recipes .free-recipes-right a button{
     width: 100%;
     padding: 20px 0;
     border-radius: 50px;
@@ -197,12 +200,13 @@ section{
     font-weight: 500;
     border: none;
     margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
 }
 #free-recipes .free-recipes-right button a{
     color: white;
     text-decoration: none;
 }
-
 #free-recipes .free-recipes-right span a{
     text-decoration: none;
     display: block;
@@ -210,12 +214,12 @@ section{
     color: grey;
     font-size: 20px;
 }
-/*---------------free-recipes End-------------*/
-/*---------------counter- start-------------*/
+/*---------------counter-------------*/
 #counter{
     display: flex;
     margin: 0 5%;
     padding-bottom: 100px;
+    background: white;
 }
 #counter .counter-item-1{
     width: 33.333%;
@@ -225,7 +229,6 @@ section{
     padding: 50px;
     border-radius: 10px;
     box-shadow: 0 0 15px gray;
-
 }
 #counter .counter-item-1 h2{
     margin: 0%;
@@ -235,7 +238,7 @@ section{
     font-size: 16px;
     color: gray;
 }
-
+/*---------------footer-area-------------*/
 #footer-area{
     padding: 50px 0 100px 0;
     background: #0B0D17;
